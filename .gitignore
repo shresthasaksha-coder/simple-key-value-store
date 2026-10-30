@@ -1,0 +1,13 @@
+# Build files
+kvstore
+*.o
+
+# Database file
+data.db
+
+# Backup files
+*.bak
+*.hashbackup
+
+# macOS
+.DS_Store
