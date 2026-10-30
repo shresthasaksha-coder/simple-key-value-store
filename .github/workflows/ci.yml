@@ -22,7 +22,7 @@ jobs:
 
       - name: Run tests
         run: |
-          g++ -std=c++17 -Wall -Wextra -pedantic tests.cpp kvstore.cpp -o tests
+          g++ -std=c++17 -Wall -Wextra -pedantic kvstore_test.cpp kvstore.cpp -o tests
           ./tests
 
       - name: Lint
